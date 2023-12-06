@@ -7,9 +7,9 @@
    
     a. [Configuración instancias Apache](#configuración-instancias-apache)
    
-    b. [Configuración instancias Apache](#configuración-instancias-apache)
+    b. [Configuración instancia Datos (MariaDB)](#configuración-instancia-datos-(mariadb))
    
-    c. [Configuración instancias Apache](#configuración-instancias-apache)
+    c. [Configuración Instancia Balanceador](#configuración-instancias-balanceador)
 5. [Obtención de Certificado SSL con Let's Encrypt](#obtención-de-certificado-ssl-con-lets-encrypt)
 6. [Configuración de Seguridad](#configuración-de-seguridad)
 
@@ -125,7 +125,7 @@ Repetimos el proceso con las demás instacias, pero utilizando la subred privada
 
 -Repetimos estos pasos en la otra instacia apache, menos este último de transferencia del archivo.
   
-## Pasos configuración instancia Datos (MariaDB):
+### Configuración instancia Datos (MariaDB):
 
 - Instalar Mariadb-server.
 
@@ -155,7 +155,7 @@ Repetimos el proceso con las demás instacias, pero utilizando la subred privada
   >![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/aec6cf2f-5aa1-43bb-9ffc-620db5be9da8)
 
 
-## Configuración Instancia Balanceador.
+### Configuración Instancia Balanceador.
 
 - Para que podamos acceder a la aplicación desde el exterior necesitaremos asociar una IP elástica a la instancia balanceador.
 
