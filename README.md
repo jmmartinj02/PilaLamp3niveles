@@ -9,7 +9,7 @@
    
     b. [Configuración instancia Datos](#configuración-instancia-datos)
    
-    c. [Configuración Instancia Balanceador](#configuración-instancias-balanceador)
+    c. [Configuración instancia Balanceador](#configuración-instancias-balanceador)
 5. [Obtención de Certificado SSL con Let's Encrypt](#obtención-de-certificado-ssl-con-lets-encrypt)
 6. [Configuración de Seguridad](#configuración-de-seguridad)
 
