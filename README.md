@@ -1,9 +1,10 @@
 # Configuración del Entorno LAMP en AWS
 
 ## Índice
-1. [Creación de VPC](#creación-de-vpc)
-2. [Creación de Instancias](#creación-de-instancias)
-3. [Configuración de Instancias](#configuración-de-instancias)
+1. [Introducción](#introducción)
+2. [Creación de VPC](#creación-de-vpc)
+3. [Creación de Instancias](#creación-de-instancias)
+4. [Configuración de Instancias](#configuración-de-instancias)
    
     a. [Configuración instancias Apache](#configuración-instancias-apache)
    
@@ -14,7 +15,9 @@
 6. [Configuración de Seguridad](#configuración-de-seguridad)
 7. [Conclusión](#conclusión)
 
-
+## Introducción
+- Se nos ha propuesto una práctica en AWS donde tenemos que crear una infraestructura con un balanceador, el cual decidirá a cual de los dos servidores apache enviará la petición. Estos servidores apache estarán conectados a una instancia de datos, la cual contendrá la base de datos de mysql.
+- Se nos ha indicado que ninguna de las instancias que creemos, a excepción del balanceador tenga acceso a internet, con lo que tendremos que tener una quinta instancia que haga de puente y podamos provisionar y configurar las demás instancias de forma remota.
 ## Creación de VPC
 
 Para comenzar, crearemos una VPC para agrupar y aislar nuestra configuración. La configuración de las subredes tiene las siguientes características:
