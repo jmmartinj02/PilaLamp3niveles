@@ -62,7 +62,7 @@ Repetimos el proceso con las demás instacias, pero utilizando la subred privada
 - Instalar Apache y los módulos de PHP necesarios.
 
       sudo apt install -y apache2 && sudo apt install php libapach2-mod-php php-mysql
-  >**![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/ed86c45b-c7d9-4492-9003-ef5a8ba58488)
+  >![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/ed86c45b-c7d9-4492-9003-ef5a8ba58488)
 
 - Clonar la aplicación desde un repositorio Git y configurar el archivo de virtual host para Apache.
   
@@ -105,13 +105,13 @@ Repetimos el proceso con las demás instacias, pero utilizando la subred privada
 
 - Asegurarse de que Apache tenga acceso a los archivos.
 
-      sudo git clone https://github.com/josejuansanchez/iaw-practica-lamp.git /var/www/html/practica2**
+      sudo git clone https://github.com/josejuansanchez/iaw-practica-lamp.git /var/www/html/practica2
   
   >![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/05f4b123-553a-4302-952d-427c9acd53d7)
 
 - Reiniciamos Apache para que los cambios surtan efecto.
 
-      sudo systemctl restart apache2**
+      sudo systemctl restart apache2
   
   >![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/80c81e98-106e-4333-afc9-8fc601189f4b)
 
@@ -119,7 +119,7 @@ Repetimos el proceso con las demás instacias, pero utilizando la subred privada
 
   >**Desde apache a puente**
   
-      scp -i balanceador.pem admin@10.0.1.136:/var/www/html/practica2/db/database.sql ~/database.sql**
+      scp -i balanceador.pem admin@10.0.1.136:/var/www/html/practica2/db/database.sql ~/database.sql
   
   >![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/afe794c3-ebb5-4b62-8285-69fd06f74ccf)
   
@@ -240,8 +240,11 @@ Repetimos el proceso con las demás instacias, pero utilizando la subred privada
     >![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/803aed27-b17b-49c3-9634-ed21235a0752)
 
     Pedirá un correo electrónico, lo introducimos.
+  
     Si queremos aceptar los términos y servicios, decimos que sí.
+  
     Si queremos compartir el correo para recibir información adicional, diremos que no.
+  
     Finalmente nos pedirá el nombre de nuestro dominio, en mi caso es jmmartinj.ddns.net
 
     >![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/cafb1f75-0f4f-457a-ab03-716cfc884136)
