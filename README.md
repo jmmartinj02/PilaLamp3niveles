@@ -265,10 +265,9 @@ Repetimos el proceso con las demás instacias, pero utilizando la subred privada
 
     >![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/54fdff06-9693-427a-a8df-48e2782ee642)
 
-Este es un resumen de los pasos y configuraciones realizados en el entorno LAMP en AWS. Tenga en cuenta que quizá debas adaptar un poco su configuración para que esté a su gusto.
 
 ## Conclusión
 
-- Un entorno LAMP, puede parecer sencillo, el verdadero problema ha sido cuando se ha tenido que configurar todo en AWS, los pasos en si no son muy complicados, siempre son pequeños errores de sintaxis en la configuración pero tener un error en AWS sin conocerlo bien puede hacerte tener que repetir todo desde el principio.
+- Un entorno LAMP, puede parecer sencillo, el verdadero problema ha sido cuando se ha tenido que configurar todo en AWS, los pasos en si no son muy complicados, siempre son pequeños errores de sintaxis en la configuración, pero tener un error en AWS sin conocerlo bien puede hacerte tener que repetir todo desde el principio.
 
 - Son tantas formas de configuración posibles en AWS que uno pierde el rumbo al tener que encontrar una falla, como en el caso de borrar una ip elástica por accidente cuando la necesitas para la máquina puente, asignar una subred privada a una instancia que necesita ser pública, son muchas las ocasiones en las que uno puede echar a perder un buen rato de trabajo.
