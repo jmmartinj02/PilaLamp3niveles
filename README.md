@@ -22,7 +22,8 @@
 
 Para comenzar, crearemos una VPC para agrupar y aislar nuestra configuración. La configuración de las subredes tiene las siguientes características:
 
->![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/25bbbdbc-2c8d-4f4d-85ff-989eafdcbfa3)
+>![image](https://github.com/user-attachments/assets/3a5c4f65-a5ab-49c3-bee3-d81cc07598d5)
+
 
 **Así se vería en la vista previa de AWS:**
 
