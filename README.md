@@ -30,7 +30,8 @@ Para comenzar, crearemos una VPC para agrupar y aislar nuestra configuración. L
 
 **Así se vería en la vista previa de AWS:**
 
->![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/ab670d09-5058-4517-af1e-d03601832930)
+![image](https://github.com/user-attachments/assets/8501c616-19ad-4215-877e-cafe1a0db270)
+
 
 - Todas las subredes comparten el mismo bloque CIDR para permitir la comunicación privada entre ellas.
 - Se crea una quinta instancia puente para actuar como puente entre las instancias y la VPC.
