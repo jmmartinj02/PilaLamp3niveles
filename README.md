@@ -48,6 +48,7 @@ El proceso de creación de instancias implica descargar las claves de conexión,
 
 >**Este es el ejemplo de la máquina balanceador.**
 Debemos tener en cuenta que debemos descargar las claves y en el apartado de configuración de red introducir la vpc que hemos creado, añadirla a su correspondiente subred y le creamos un grupo de seguridad añadiendo un nombre y las correspondientes reglas.
+Otro punto a tener en cuenta es, que el balanceador se encontrará en la subred pública, backend y NFS en una de las dos privadas y finalmente nuestra BBDD en la otra red privada.
 - En este caso, este sería el resultado de la instancia:
 >
 ![image](https://github.com/user-attachments/assets/627f503a-dc64-4b45-87ed-f3ba806bab8c)
