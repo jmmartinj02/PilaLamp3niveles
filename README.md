@@ -39,11 +39,19 @@ Para comenzar, crearemos una VPC para agrupar y aislar nuestra configuración. L
 
 ## Creación de Instancias
 
-El proceso de creación de instancias implica descargar las claves de conexión, configurar la red en la VPC correspondiente y asegurarse de que las instancias estén en la subred adecuada.
+El proceso de creación de instancias implica descargar las claves de conexión, configurar la red en la VPC correspondiente y asegurarse de que las instancias estén en la subred adecuada, podemos adelantar trabajo y añadir reglas del grupo de seguridad:
+
+- Instancia Balanceador: HTTP(80), HTTPS(443) y SSH(22).
+- Instancias servidores web: HTTP(80), HTTPS(443), SSH(22) y NFS(2049).
+- Instancia NFS: SSH(22), NFS(2049).
+- Instancia BB.DD: MYSQL/AURORA(3306), SSH(22).
 
 >**Este es el ejemplo de la máquina balanceador.**
+Debemos tener en cuenta que debemos descargar las claves y en el apartado de configuración de red introducir la vpc que hemos creado, añadirla a su correspondiente subred y le creamos un grupo de seguridad añadiendo un nombre y las correspondientes reglas.
+- En este caso, este sería el resultado de la instancia:
 >
->![image](https://github.com/jmmartinj02/PilaLamp3niveles/assets/146434706/ea4b02a0-bb3d-4df2-a0d9-884f76e70a0e)
+![image](https://github.com/user-attachments/assets/627f503a-dc64-4b45-87ed-f3ba806bab8c)
+
 
 Repetimos el proceso con las demás instacias, pero utilizando la subred privada en ellas.
 
