@@ -22,7 +22,10 @@
 
 Para comenzar, crearemos una VPC para agrupar y aislar nuestra configuración. La configuración de las subredes tiene las siguientes características:
 
->![image](https://github.com/user-attachments/assets/3a5c4f65-a5ab-49c3-bee3-d81cc07598d5)
+![image](https://github.com/user-attachments/assets/e6f24853-1027-4cc2-ba5a-f5959977125e)
+
+
+
 
 
 **Así se vería en la vista previa de AWS:**
